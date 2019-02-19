@@ -22,7 +22,7 @@ parser.add_argument('--columns', '-c', metavar='Cols_set', default='complete',
 parser.add_argument('--window', '-w', default=256, type=int,
                     help='number of timestep for each window')
 parser.add_argument('--arch', '-a', metavar='ARCH', default='DeepConv',
-                    choices=model_names, help='model architecture: ' + ' | '.join(model_names) + ' (default: DeepMix)')
+                    choices=model_names, help='model architecture: ' + ' | '.join(model_names) + ' (default: DeepConv)')
 parser.add_argument('--epochs', '-e', default=110, type=int, metavar='E',
                     help='number of total epochs to run')
 parser.add_argument('--batch-size', '-b', default=64, type=int,
